@@ -76,5 +76,5 @@ This project shows the use of timer programming, LCD interfacing, button control
 
 Designed and implemented the program logic, LCD interfacing, timer operations, feature integration, and system testing.
 
-## Author
-PURASTHU HARINI
+
+### PURASTHU HARINI
