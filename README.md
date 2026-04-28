@@ -1,86 +1,151 @@
-# ⏰ 8051 Smart Digital Clock System
-
-![Microcontroller](https://img.shields.io/badge/Microcontroller-AT89C51-blue)
-![Language](https://img.shields.io/badge/Language-Embedded%20C-green)
-![Simulation](https://img.shields.io/badge/Simulation-Proteus-orange)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
-
----
-
-## 📌 Overview
-This project implements a Smart Digital Clock using 8051 microcontroller with alarm and stopwatch features.  
-It displays real-time clock data on a 16x2 LCD and supports multiple modes using push buttons.
-
----
-
-## 📸 Preview
+⏰ 8051 Smart Digital Clock System
 
 <p align="center">
-  <img src="images/overview1.png" width="600"/>
-</p>
+  <b>🚀 Embedded System Project using AT89C51 Microcontroller</b><br>
+  Real-Time Clock • Alarm • Stopwatch • LCD Interface
+</p><p align="center">
+  <img src="https://img.shields.io/badge/Microcontroller-AT89C51-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Language-Embedded%20C-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/IDE-Keil%20uVision-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Simulation-Proteus-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"/>
+</p>---
+
+📖 Overview
+
+The 8051 Smart Digital Clock System is a fully functional embedded application built using the AT89C51 (8051) microcontroller.
+It displays real-time time on a 16x2 LCD, supports alarm alerts, and includes a stopwatch mode for time tracking.
+
+This project demonstrates core concepts of:
+
+- ⏱ Timer Programming
+- 🔌 Hardware Interfacing
+- 🧠 Embedded System Design
 
 ---
 
-## 🚀 Features
-- Real-time clock  
-- Alarm with buzzer  
-- Stopwatch mode  
-- Multi-mode operation  
-- LCD display  
-
----
-
-## 🛠 Components Used
-- 8051 Microcontroller  
-- 16x2 LCD  
-- Buzzer  
-- Push Buttons  
-- Crystal Oscillator  
-
----
-
-## ▶️ How to Run
-1. Open project in Proteus  
-2. Load .hex file  
-3. Run simulation  
-4. Use buttons to control modes  
-
----
-
-## 📸 Project Output
+🖼️ Project Showcase
 
 <p align="center">
-  <img src="images/normal clock reading.png" width="250"/>
-  <img src="images/alarm set 1.png" width="250"/>
-  <img src="images/stopwatch screen 1.png" width="250"/>
-</p>
+  <img src="images/overview1.png" width="650"/>
+</p>---
+
+✨ Key Features
+
+- 🕒 Real-time clock (HH:MM:SS)
+- ⏰ Alarm with buzzer notification
+- ⏱ Stopwatch for elapsed time
+- 🔘 Multi-mode control via push buttons
+- 📟 Clear LCD interface
+- ⚙️ Accurate timer-based system
+
+---
+
+📸 Output Screens
 
 <p align="center">
-  <img src="images/alarm buzzer.png" width="250"/>
-  <img src="images/lcd close look.png" width="250"/>
-  <img src="images/zoom of normal clock.png" width="250"/>
-</p>
+  <img src="images/normal%20clock%20reading.png" width="250"/>
+  <img src="images/alarm%20set%201.png" width="250"/>
+  <img src="images/stopwatch%20screen%201.png" width="250"/>
+</p><p align="center">
+  <img src="images/alarm%20buzzer.png" width="250"/>
+  <img src="images/lcd%20close%20look.png" width="250"/>
+  <img src="images/zoom%20of%20normal%20clock.png" width="250"/>
+</p>---
+
+⚙️ How It Works
+
+- The 8051 internal timer generates 1-second intervals
+- Time is updated continuously and displayed on LCD
+- Push buttons allow switching between modes
+- Alarm triggers buzzer when time matches
+- Stopwatch counts elapsed time independently
 
 ---
 
-## ⚙️ Working
-- Time is generated using internal timer  
-- LCD displays current time  
-- Buttons switch between modes  
-- Alarm triggers buzzer  
+🔌 Hardware Components
+
+- AT89C51 / 8051 Microcontroller
+- 16x2 LCD Display
+- Push Buttons
+- Piezo Buzzer
+- Crystal Oscillator
+- Regulated Power Supply
 
 ---
 
-## 📌 Applications
-- Digital clocks  
-- Alarm systems  
-- Embedded learning  
+💻 Software Tools
+
+- Embedded C Programming
+- Keil uVision IDE
+- Proteus Simulation
 
 ---
 
-## 👨‍💻 Author
-Purastu Harini
+🔄 Functional Modes
+
+1. Clock Display Mode
+2. Time Setting Mode
+3. Alarm Setting Mode
+4. Stopwatch Mode
 
 ---
 
-⭐ Star this repo if you like this project!
+▶️ Getting Started
+
+🛠 Run Simulation
+
+1. Open "simulation/digital_clock.pdsprj" in Proteus
+2. Load ".hex" file from "build/"
+3. Run simulation
+4. Use buttons to control modes
+
+---
+
+📁 Project Structure
+
+8051-Digital-Clock-Project/
+│
+├── src/               # Embedded C source code
+├── build/             # Compiled HEX file
+├── simulation/        # Proteus project
+├── images/            # Output images
+└── README.md
+
+---
+
+🧠 Skills Demonstrated
+
+- Embedded C Programming
+- 8051 Microcontroller Interfacing
+- Timer & Counter Applications
+- LCD Display Control
+- Button Input Handling
+- Circuit Simulation & Debugging
+
+---
+
+📌 Applications
+
+- Digital Clock Systems
+- Alarm Devices
+- Embedded Learning Projects
+- Timer-Based Applications
+
+---
+
+🚧 Future Enhancements
+
+- RTC Module for higher accuracy
+- Countdown Timer feature
+- Temperature sensor integration
+- Bluetooth-based control
+
+---
+
+👨‍💻 Author
+
+Purasthu Harini
+
+
+
