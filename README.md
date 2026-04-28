@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/IDE-Keil%20uVision-orange?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Simulation-Proteus-red?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"/>
-</p>---
+
 
 📖 Overview
 
@@ -22,13 +22,13 @@ This project demonstrates core concepts of:
 - 🔌 Hardware Interfacing
 - 🧠 Embedded System Design
 
----
+
 
 🖼️ Project Showcase
 
 <p align="center">
   <img src="images/overview1.png" width="650"/>
-</p>---
+
 
 ✨ Key Features
 
@@ -39,7 +39,7 @@ This project demonstrates core concepts of:
 - 📟 Clear LCD interface
 - ⚙️ Accurate timer-based system
 
----
+
 
 📸 Output Screens
 
@@ -51,7 +51,7 @@ This project demonstrates core concepts of:
   <img src="images/alarm%20buzzer.png" width="250"/>
   <img src="images/lcd%20close%20look.png" width="250"/>
   <img src="images/zoom%20of%20normal%20clock.png" width="250"/>
-</p>---
+
 
 ⚙️ How It Works
 
@@ -61,7 +61,7 @@ This project demonstrates core concepts of:
 - Alarm triggers buzzer when time matches
 - Stopwatch counts elapsed time independently
 
----
+
 
 🔌 Hardware Components
 
@@ -72,7 +72,7 @@ This project demonstrates core concepts of:
 - Crystal Oscillator
 - Regulated Power Supply
 
----
+
 
 💻 Software Tools
 
@@ -80,7 +80,7 @@ This project demonstrates core concepts of:
 - Keil uVision IDE
 - Proteus Simulation
 
----
+
 
 🔄 Functional Modes
 
@@ -89,7 +89,7 @@ This project demonstrates core concepts of:
 3. Alarm Setting Mode
 4. Stopwatch Mode
 
----
+
 
 ▶️ Getting Started
 
@@ -100,19 +100,13 @@ This project demonstrates core concepts of:
 3. Run simulation
 4. Use buttons to control modes
 
----
+
 
 📁 Project Structure
 
-8051-Digital-Clock-Project/
-│
-├── src/               # Embedded C source code
-├── build/             # Compiled HEX file
-├── simulation/        # Proteus project
-├── images/            # Output images
-└── README.md
+8051-Digital-Clock-Project/ │ ├── src/               # Embedded C source code ├── build/             # Compiled HEX file │   └── 8051_digital_clock.hex ├── simulation/        # Proteus project file │   └── digital_clock.pdsprj ├── images/            # Output images │   ├── overview1.png │   ├── normal clock reading.png │   ├── alarm set 1.png │   ├── stopwatch screen 1.png │   ├── alarm buzzer.png │   ├── lcd close look.png │   └── zoom of normal clock.png └── README.md
 
----
+
 
 🧠 Skills Demonstrated
 
@@ -123,7 +117,7 @@ This project demonstrates core concepts of:
 - Button Input Handling
 - Circuit Simulation & Debugging
 
----
+
 
 📌 Applications
 
@@ -132,7 +126,7 @@ This project demonstrates core concepts of:
 - Embedded Learning Projects
 - Timer-Based Applications
 
----
+
 
 🚧 Future Enhancements
 
@@ -141,7 +135,7 @@ This project demonstrates core concepts of:
 - Temperature sensor integration
 - Bluetooth-based control
 
----
+
 
 👨‍💻 Author
 
