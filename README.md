@@ -1,4 +1,4 @@
-⏰ 8051 Smart Digital Clock System
+# ⏰ 8051 Smart Digital Clock System
 
 <p align="center">
   <b>🚀 Embedded System Project using AT89C51 Microcontroller</b><br>
@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"/>
 
 
-📖 Overview
+## 📖 Overview
 
 The 8051 Smart Digital Clock System is a fully functional embedded application built using the AT89C51 (8051) microcontroller.
 It displays real-time time on a 16x2 LCD, supports alarm alerts, and includes a stopwatch mode for time tracking.
@@ -24,13 +24,13 @@ This project demonstrates core concepts of:
 
 
 
-🖼️ Project Showcase
+## 🖼️ Project Showcase
 
 <p align="center">
   <img src="images/overview1.png" width="650"/>
 
 
-✨ Key Features
+## ✨ Key Features
 
 - 🕒 Real-time clock (HH:MM:SS)
 - ⏰ Alarm with buzzer notification
@@ -41,7 +41,7 @@ This project demonstrates core concepts of:
 
 
 
-📸 Output Screens
+## 📸 Output Screens
 
 <p align="center">
   <img src="images/normal%20clock%20reading.png" width="250"/>
@@ -53,7 +53,7 @@ This project demonstrates core concepts of:
   <img src="images/zoom%20of%20normal%20clock.png" width="250"/>
 
 
-⚙️ How It Works
+## ⚙️ How It Works
 
 - The 8051 internal timer generates 1-second intervals
 - Time is updated continuously and displayed on LCD
@@ -63,7 +63,7 @@ This project demonstrates core concepts of:
 
 
 
-🔌 Hardware Components
+## 🔌 Hardware Components
 
 - AT89C51 / 8051 Microcontroller
 - 16x2 LCD Display
@@ -74,7 +74,7 @@ This project demonstrates core concepts of:
 
 
 
-💻 Software Tools
+## 💻 Software Tools
 
 - Embedded C Programming
 - Keil uVision IDE
@@ -82,7 +82,7 @@ This project demonstrates core concepts of:
 
 
 
-🔄 Functional Modes
+## 🔄 Functional Modes
 
 1. Clock Display Mode
 2. Time Setting Mode
@@ -91,7 +91,7 @@ This project demonstrates core concepts of:
 
 
 
-▶️ Getting Started
+## ▶️ Getting Started
 
 🛠 Run Simulation
 
@@ -100,15 +100,37 @@ This project demonstrates core concepts of:
 3. Run simulation
 4. Use buttons to control modes
 
+## 📁 Project Structure
+
+```
+8051-Digital-Clock-Project
+│
+├── src
+│   └── main.c
+│
+├── build
+│   └── 8051_digital_clock.hex
+│
+├── simulation
+│   └── digital_clock.pdsprj
+│
+├── images
+│   ├── overview1.png
+│   ├── normal clock reading.png
+│   ├── alarm set 1.png
+│   ├── stopwatch screen 1.png
+│   ├── alarm buzzer.png
+│   ├── lcd close look.png
+│   └── zoom of normal clock.png
+│
+└── README.md
+````
 
 
-📁 Project Structure
-
-8051-Digital-Clock-Project/ │ ├── src/               # Embedded C source code ├── build/             # Compiled HEX file │   └── 8051_digital_clock.hex ├── simulation/        # Proteus project file │   └── digital_clock.pdsprj ├── images/            # Output images │   ├── overview1.png │   ├── normal clock reading.png │   ├── alarm set 1.png │   ├── stopwatch screen 1.png │   ├── alarm buzzer.png │   ├── lcd close look.png │   └── zoom of normal clock.png └── README.md
 
 
 
-🧠 Skills Demonstrated
+## 🧠 Skills Demonstrated
 
 - Embedded C Programming
 - 8051 Microcontroller Interfacing
@@ -119,7 +141,7 @@ This project demonstrates core concepts of:
 
 
 
-📌 Applications
+## 📌 Applications
 
 - Digital Clock Systems
 - Alarm Devices
@@ -128,7 +150,7 @@ This project demonstrates core concepts of:
 
 
 
-🚧 Future Enhancements
+## 🚧 Future Enhancements
 
 - RTC Module for higher accuracy
 - Countdown Timer feature
@@ -137,7 +159,7 @@ This project demonstrates core concepts of:
 
 
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Purasthu Harini
 
